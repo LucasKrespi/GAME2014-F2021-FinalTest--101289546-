@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         _FireBullet();
     }
 
-     private void _FireBullet()
+    private void _FireBullet()
     {
         // delay bullet firing 
         if(Time.frameCount % 60 == 0 && BulletManager.Instance().HasBullets(PoolType.ENEMY))
